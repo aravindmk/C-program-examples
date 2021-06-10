@@ -1,8 +1,10 @@
-/*Program to evaluate the sum of two numbers*/
-//Author : Aravind
-//Roll no. : 339
-//Date : 8/6/2021
-//Experiment : 1
+/*
+Program to evaluate the sum of two numbers
+Author : Aravind MK
+Roll no. : 339
+Date : 8/6/2021
+Experiment : 1	
+*/
 #include<stdio.h>
 
 int main(){

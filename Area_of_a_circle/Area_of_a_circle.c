@@ -1,8 +1,10 @@
-/*Program to evaluate the sum of two numbers*/
-//Author : Aravind MK
-//Roll no. : 339
-//Date : 9/6/2021
-//Experiment : 2
+/*
+Program to evaluate the area of a circle
+Author : Aravind MK
+Roll no. : 339
+Date : 9/6/2021
+Experiment : 2
+*/
 #include<stdio.h>
 int main(){
     float r,a,pi;   //Declaring variables
