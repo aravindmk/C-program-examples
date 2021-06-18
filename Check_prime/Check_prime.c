@@ -7,8 +7,7 @@ Experiment : 5
 */
 #include <stdio.h>
 
-int main()
-{
+int main(){
   int n, i, l = 0;
 
   printf("\nEnter the number : ");
