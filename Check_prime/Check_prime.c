@@ -13,22 +13,26 @@ int main(){
   printf("\nEnter the number : ");
   scanf("%d", &n);
   
-  i = 2;
-  
-  for (; i <= n / 2;){
-    if (n % i == 0){
-      l = 1;
-      break;
-    }
-    i = i + 1;
-  }
-
-  if (l == 0){
-    printf("\n%d is a prime number.\n\n", n);
+  if (n==1 || n==0){
+    printf("%d is neither prime nor composite", n);
   }
   else{
-    printf("\n%d is not a prime number.\n\n", n);
-  }
+    i = 2;
+    
+    for (; i <= n / 2;){
+      if (n % i == 0){
+        l = 1;
+        break;
+      }
+      i = i + 1;
+    }
 
+    if (l == 0){
+      printf("\n%d is a prime number.\n\n", n);
+    }
+    else{
+      printf("\n%d is not a prime number.\n\n", n);
+    }
+  }
   return 0;
 }
