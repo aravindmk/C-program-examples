@@ -12,19 +12,16 @@ int main(){
 
   printf("\nEnter the number : ");
   scanf("%d", &n);
-  
+
   if (n==1 || n==0){
-    printf("%d is neither prime nor composite", n);
+    printf("\n%d is neither prime nor composite\n\n", n);
   }
   else{
-    i = 2;
-    
-    for (; i <= n / 2;){
+    for (i=2; i <= n / 2; ++i){
       if (n % i == 0){
         l = 1;
         break;
       }
-      i = i + 1;
     }
 
     if (l == 0){
