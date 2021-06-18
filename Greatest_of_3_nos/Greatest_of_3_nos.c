@@ -1,3 +1,10 @@
+/*
+Program to find the largest of three numbers
+Author : Aravind MK
+Roll no. : 339
+Date : 17/6/2021
+Experiment : 4
+*/
 #include <stdio.h>
 
 int main(){

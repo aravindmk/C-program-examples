@@ -1,3 +1,10 @@
+/*
+Program to check if a natural number is prime or not
+Author : Aravind MK
+Roll no. : 339
+Date : 17/6/2021
+Experiment : 5
+*/
 #include <stdio.h>
 
 int main()
